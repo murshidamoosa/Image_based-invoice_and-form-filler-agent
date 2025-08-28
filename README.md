@@ -77,4 +77,18 @@ Please install it based on your operating system:
 - [pytesseract](https://pypi.org/project/pytesseract/)  
 - [pdf2image](https://pypi.org/project/pdf2image/)  
 - [pandas](https://pypi.org/project/pandas/)  
-- [Pillow](https://pypi.org/project/Pillow/)  
+- [Pillow](https://pypi.org/project/Pillow/)
+
+
+## ⚠️ Limitations
+
+- This project currently supports **only the sample invoice formats** provided in the `templates/images/` folder.  
+- OCR accuracy may vary for different invoice layouts, fonts, or low-quality scans.  
+- The system is designed as a **customizable framework** — you can extend or modify the field extraction logic (e.g., Vendor Name, Tax ID, Line Items, etc.) depending on your invoice structure.
+
+## 📸 Example Supported Invoices
+
+Example supported invoice (located in `templates/images/`):  
+
+![Sample Invoice](templates/images/)
+
